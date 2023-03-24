@@ -1,0 +1,24 @@
+.body-style-sync {
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    height: 70%;
+    padding-top: 30%;
+    font-size: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.steps-style {
+    font-size: 98%;
+    color: #00379A;
+    font-weight: bold;
+}
+
+.full-step {
+    margin-bottom: 2%;
+}
+
+.text-inside-step {
+    text-align:justify;
+}
+

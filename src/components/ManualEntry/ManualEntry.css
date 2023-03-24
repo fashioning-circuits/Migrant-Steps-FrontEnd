@@ -1,0 +1,14 @@
+.body-style-manualEntry{
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    height: 70%;
+    padding-top: 30%;
+    font-size: 90%;
+}
+
+.form-bottom-left-manualentry {
+    float: left;
+    text-align: left;
+    margin-top: 2%;
+}
+
