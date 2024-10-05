@@ -1,0 +1,53 @@
+.body-style-login {
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin-top: 13%;
+    margin-bottom: 25%;
+}
+
+.login-header {
+    padding-bottom: 2%;
+    font-weight: bold;
+    font-size: 130%;
+    color: #00379A;
+}
+
+.login-body {
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+.form-bottom-login {
+    padding-top: 3%;
+    font-size: small;
+    margin-left: 20%;
+    width: 60%;
+    
+}
+.form-bottom-left {
+    float:left;
+    text-align: left;
+    
+}
+
+.form-bottom-right {
+    text-align: right;
+    float:right;
+}
+
+.input-style {
+    width: 60%;
+    border-style: solid;
+}
+
+.login-bottom {
+    padding-top: 6%;
+}
+
+.style-between-inputs {
+    margin-bottom:5%;
+}
+
+
+
+

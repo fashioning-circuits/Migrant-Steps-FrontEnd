@@ -1,0 +1,26 @@
+.body-style-about {
+    text-align: center;
+    font-family: 'Trebuchet MS', sans-serif;
+    height: 70%;
+    padding-top: 30%;
+    font-size: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.text-body {
+    text-align: justify;
+}
+
+.accordion-button {
+    background-color: #4D58BA !important;
+    color: white !important;
+    font-size: 60% !important;
+}
+
+
+.accordion-button:focus {
+    outline: 0 !important;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0) !important;
+}
+
