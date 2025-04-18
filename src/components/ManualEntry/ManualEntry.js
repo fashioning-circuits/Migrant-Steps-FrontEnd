@@ -5,8 +5,6 @@ import './ManualEntry.css';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
 import { BsFillSquareFill } from 'react-icons/bs';
-import BootstrapTable from 'react-bootstrap-table-next';
-import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 
 
 class ManualEntry extends Component {
@@ -72,8 +70,44 @@ class ManualEntry extends Component {
                     </form>
                 </div>
                 <div style={{ marginTop: "20%", marginLeft: "10%", marginRight: "10%" }}>
-                    <BootstrapTable keyField='date' data={this.state.products} columns={this.state.columns} />
-                </div> 
+  <table style={{ width: "100%", borderCollapse: "collapse" }}>
+    <thead>
+      <tr>
+        {this.state.columns.map((col) => (
+          <th
+            key={col.dataField}
+            style={{
+              border: "1px solid #ddd",
+              padding: "8px",
+              backgroundColor: "#f2f2f2",
+              textAlign: "left",
+            }}
+          >
+            {col.text}
+          </th>
+        ))}
+      </tr>
+    </thead>
+    <tbody>
+      {this.state.products.map((row, rowIndex) => (
+        <tr key={rowIndex}>
+          {this.state.columns.map((col) => (
+            <td
+              key={col.dataField}
+              style={{
+                border: "1px solid #ddd",
+                padding: "8px",
+              }}
+            >
+              {row[col.dataField]}
+            </td>
+          ))}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
             </div>
             
         )
