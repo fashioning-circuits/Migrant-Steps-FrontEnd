@@ -8,6 +8,7 @@ import About from '../src/components/About/About.js';
 import ManualEntry from '../src/components/ManualEntry/ManualEntry.js';
 import JourneyMap from '../src/components/JourneyMap/JourneyMap.js';
 import MyCollection from '../src/components/MyCollection/MyCollection.js';
+import ApiTest from '../src/components/ApiTest/ApiTest.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <div>
           <BrowserRouter>
               <Routes>
+                  <Route path="/api-test" element={<ApiTest />} />
                   <Route path="/" element={<Login />} />
                   <Route path="/MainPage" element={<MainPage />} />
                   <Route path="/SignUp" element={<SignUp />} />
